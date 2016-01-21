@@ -26,6 +26,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
     NSLog(@"111");
+    NSLog(@"123123");
 }
 
 @end
