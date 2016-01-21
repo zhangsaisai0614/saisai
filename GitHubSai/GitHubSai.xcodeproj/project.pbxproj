@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3677A69F1C50C89B007F598A /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 3677A69E1C50C89B007F598A /* Model.m */; };
 		494DBB8C1C50CADE003B3B84 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 494DBB8B1C50CADE003B3B84 /* Model.m */; };
+		494DBB8F1C50D7C9003B3B84 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		494DBB921C50D82A003B3B84 /* Modell.m in Sources */ = {isa = PBXBuildFile; fileRef = 494DBB911C50D82A003B3B84 /* Modell.m */; };
 		49F68E1A1C50C49F00183E28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F68E191C50C49F00183E28 /* main.m */; };
 		49F68E1D1C50C49F00183E28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F68E1C1C50C49F00183E28 /* AppDelegate.m */; };
 		49F68E201C50C49F00183E28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F68E1F1C50C49F00183E28 /* ViewController.m */; };
@@ -41,6 +43,8 @@
 		3677A69E1C50C89B007F598A /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 
 
+		494DBB901C50D82A003B3B84 /* Modell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Modell.h; sourceTree = "<group>"; };
+		494DBB911C50D82A003B3B84 /* Modell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Modell.m; sourceTree = "<group>"; };
 		49F68E151C50C49F00183E28 /* GitHubSai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubSai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F68E191C50C49F00183E28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		49F68E1B1C50C49F00183E28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -111,9 +115,8 @@
 				49F68E1C1C50C49F00183E28 /* AppDelegate.m */,
 				49F68E1E1C50C49F00183E28 /* ViewController.h */,
 				49F68E1F1C50C49F00183E28 /* ViewController.m */,
-
-				494DBB8A1C50CADE003B3B84 /* Model.h */,
-				494DBB8B1C50CADE003B3B84 /* Model.m */,
+				494DBB901C50D82A003B3B84 /* Modell.h */,
+				494DBB911C50D82A003B3B84 /* Modell.m */,
 				49F68E211C50C49F00183E28 /* Main.storyboard */,
 				49F68E241C50C49F00183E28 /* Assets.xcassets */,
 				49F68E261C50C49F00183E28 /* LaunchScreen.storyboard */,
@@ -282,8 +285,8 @@
 				49F68E201C50C49F00183E28 /* ViewController.m in Sources */,
 				49F68E1D1C50C49F00183E28 /* AppDelegate.m in Sources */,
 				49F68E1A1C50C49F00183E28 /* main.m in Sources */,
-
-				494DBB8C1C50CADE003B3B84 /* Model.m in Sources */,
+				494DBB921C50D82A003B3B84 /* Modell.m in Sources */,
+				494DBB8F1C50D7C9003B3B84 /* (null) in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
