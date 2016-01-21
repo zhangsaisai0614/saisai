@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		494DBB8C1C50CADE003B3B84 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 494DBB8B1C50CADE003B3B84 /* Model.m */; };
 		49F68E1A1C50C49F00183E28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F68E191C50C49F00183E28 /* main.m */; };
 		49F68E1D1C50C49F00183E28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F68E1C1C50C49F00183E28 /* AppDelegate.m */; };
 		49F68E201C50C49F00183E28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F68E1F1C50C49F00183E28 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		494DBB8A1C50CADE003B3B84 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		494DBB8B1C50CADE003B3B84 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 		49F68E151C50C49F00183E28 /* GitHubSai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubSai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F68E191C50C49F00183E28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		49F68E1B1C50C49F00183E28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				49F68E1C1C50C49F00183E28 /* AppDelegate.m */,
 				49F68E1E1C50C49F00183E28 /* ViewController.h */,
 				49F68E1F1C50C49F00183E28 /* ViewController.m */,
+				494DBB8A1C50CADE003B3B84 /* Model.h */,
+				494DBB8B1C50CADE003B3B84 /* Model.m */,
 				49F68E211C50C49F00183E28 /* Main.storyboard */,
 				49F68E241C50C49F00183E28 /* Assets.xcassets */,
 				49F68E261C50C49F00183E28 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				49F68E201C50C49F00183E28 /* ViewController.m in Sources */,
 				49F68E1D1C50C49F00183E28 /* AppDelegate.m in Sources */,
 				49F68E1A1C50C49F00183E28 /* main.m in Sources */,
+				494DBB8C1C50CADE003B3B84 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +502,7 @@
 				49F68E441C50C49F00183E28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49F68E451C50C49F00183E28 /* Build configuration list for PBXNativeTarget "GitHubSaiTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				49F68E471C50C49F00183E28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49F68E481C50C49F00183E28 /* Build configuration list for PBXNativeTarget "GitHubSaiUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				49F68E4A1C50C49F00183E28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
